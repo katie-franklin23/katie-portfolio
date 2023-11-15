@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        bounce: '',
+        bounce:
+          'bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite',
       },
       keyframes: {
         bounce: {
