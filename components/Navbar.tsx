@@ -28,7 +28,7 @@ const NAV_ITEMS: Array<NavItem> = [
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === 'system' ? systemTheme : theme
-  const pathname = usePathname()
+  // const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
