@@ -29,35 +29,35 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{' '}
+              Hi, my name is Katie and I am a{' '}
               <span className="font-bold">{'highly ambitious'}</span>,
               <span className="font-bold">{' self-motivated'}</span>, and
-              <span className="font-bold">{' driven'}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{' driven'}</span> Full Stack Engineer
+              based in Auckland, New Zealand.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Dev Academy Aotearoa, in October 2023 with a New
+              Zealand Certificate in Applied Software Development (Level 6)and
+              am looking for my first Junior Developer role.s
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              From going to concerts, traveling, going on daily walks and brunch
+              catch ups with friends. I am always seeking new experiences and
+              love to keep myself engaged and learning new things.
             </p>
             <br />
             <p>
-              I believe that you should{' '}
+              I hold the belief that one should{' '}
               <span className="font-bold text-teal-500">
-                never stop growing
+                consistently embrace growth
               </span>{' '}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              a principle&#39; I actively pursue. Fueled by a passion for
+              technology, I am driven to continuously challenge the boundaries
+              of what can be achieved. I eagerly anticipate the unfolding of my
+              career journey and remain eager to new opportunities. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
