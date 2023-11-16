@@ -32,21 +32,21 @@ const AboutSection = () => {
               Hi, my name is Katie and I am a{' '}
               <span className="font-bold">{'highly ambitious'}</span>,
               <span className="font-bold">{' self-motivated'}</span>, and
-              <span className="font-bold">{' driven'}</span> Full Stack Engineer
-              based in Auckland, New Zealand.
+              <span className="font-bold">{' driven'}</span> Full Stack
+              Developer based in Auckland, New Zealand.
             </p>
             <br />
             <p>
               I graduated from Dev Academy Aotearoa, in October 2023 with a New
-              Zealand Certificate in Applied Software Development (Level 6)and
-              am looking for my first Junior Developer role.s
+              Zealand Certificate in Applied Software Development (Level 6) and
+              am looking for my first Junior Developer role.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From going to concerts, traveling, going on daily walks and brunch
-              catch ups with friends. I am always seeking new experiences and
-              love to keep myself engaged and learning new things.
+              From going to concerts, traveling, daily walks and brunch catch
+              ups with friends. I am always seeking new experiences and love to
+              keep myself engaged and to learn new things.
             </p>
             <br />
             <p>
@@ -54,10 +54,10 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">
                 consistently embrace growth
               </span>{' '}
-              a principle&#39; I actively pursue. Fueled by a passion for
-              technology, I am driven to continuously challenge the boundaries
-              of what can be achieved. I eagerly anticipate the unfolding of my
-              career journey and remain eager to new opportunities. 🙂
+              a principle I actively pursue. Fueled by a passion for technology,
+              I am driven to continuously challenge the boundaries of what can
+              be achieved. I eagerly anticipate the unfolding of my career
+              journey and remain eager to new opportunities. 🙂
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
