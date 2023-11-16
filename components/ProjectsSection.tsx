@@ -1,32 +1,32 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import SlideUp from './SlideUp'
+import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs'
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: 'To Do App',
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      'This is a Todos Full-Stack application I built with TypeScript, React, JavaScript, HTML, and CSS. It lets users create and manage their to-do lists, enabling the addition of tasks and also allows users to delete tasks.',
+    image: '/thankfulthoughts.png', //to update
+    github: 'https://github.com/katie-franklin23/to-do',
+    link: 'https://thankfulthoughts.io/', // to update
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: 'PlatoIO',
+    description: 'PlatoIO is a to do list app that built using the PERN stack.',
+    image: '/platoio.png',
+    github: 'https://github.com/hqasmei/platoio',
+    link: 'https://platoio.com/register',
   },
   {
-    name: "Kator Family Photos",
+    name: 'Kator Family Photos',
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      'Kator Family Photos is a photos and video digitization service in the LA area.',
+    image: '/familyphotos.png',
+    github: 'https://github.com/hqasmei/katorfamilyphotos',
+    link: 'https://katorfamilyphotos.com/',
   },
 ]
 
@@ -80,7 +80,6 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
       </div>
     </section>
   )
