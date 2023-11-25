@@ -11,7 +11,7 @@ const projects = [
       'This is a Todos Full-Stack application I built with TypeScript, React, JavaScript, HTML, and CSS. It lets users create and manage their to-do lists, enabling the addition of tasks and also allows users to delete tasks.',
     image: '/thankfulthoughts.png', //to update
     github: 'https://github.com/katie-franklin23/to-do',
-    link: 'https://thankfulthoughts.io/', // to update
+    link: 'http://katie-franklin-todo.devacademy.nz/',
   },
   {
     name: 'PlatoIO',
