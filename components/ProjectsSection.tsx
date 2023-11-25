@@ -9,7 +9,7 @@ const projects = [
     name: 'To Do App',
     description:
       'This is a Todos Full-Stack application I built with TypeScript, React, JavaScript, HTML, and CSS. It lets users create and manage their to-do lists, enabling the addition of tasks and also allows users to delete tasks.',
-    image: '/thankfulthoughts.png', //to update
+    image: '/to-do-image.png',
     github: 'https://github.com/katie-franklin23/to-do',
     link: 'http://katie-franklin-todo.devacademy.nz/',
   },
