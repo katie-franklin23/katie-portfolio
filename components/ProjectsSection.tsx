@@ -14,9 +14,10 @@ const projects = [
     link: 'http://katie-franklin-todo.devacademy.nz/',
   },
   {
-    name: 'PlatoIO',
-    description: 'PlatoIO is a to do list app that built using the PERN stack.',
-    image: '/platoio.png',
+    name: 'Charlottes Web Log',
+    description:
+      'This application, developed during a Dev Academy project, showcases my proficiency in utilizing TypeScript, React, HTML, and CSS.',
+    image: '/charlottes-web.png',
     github: 'https://github.com/hqasmei/platoio',
     link: 'https://platoio.com/register',
   },
