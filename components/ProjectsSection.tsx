@@ -18,8 +18,8 @@ const projects = [
     description:
       'This application, developed during a Dev Academy project, showcases my proficiency in utilizing TypeScript, React, HTML, and CSS.',
     image: '/charlottes-web.png',
-    github: 'https://github.com/hqasmei/platoio',
-    link: 'https://platoio.com/register',
+    github: 'https://github.com/katie-franklin23/charlottes-web',
+    link: 'https://charlottes-web.vercel.app/',
   },
   {
     name: 'Kator Family Photos',
