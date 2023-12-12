@@ -22,7 +22,7 @@ const projects = [
     link: 'https://charlottes-web.vercel.app/',
   },
   {
-    name: 'Kator Family Photos',
+    name: 'Book-Keepers Website',
     description:
       'The project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.',
     image: '/book-keepers.png',
