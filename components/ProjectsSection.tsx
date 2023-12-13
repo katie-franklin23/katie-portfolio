@@ -24,18 +24,18 @@ const projects = [
   {
     name: 'Book-Keepers Website',
     description:
-      'The project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.',
+      'This project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.',
     image: '/book-keepers.png',
     github: 'https://github.com/katie-franklin23/book-keepers',
     link: 'http://book-keepers.devacademy.nz/',
   },
   {
-    name: 'Book-Keepers test',
+    name: 'Odin Recipes Website',
     description:
-      'The project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.',
-    image: '/book-keepers.png',
-    github: 'https://github.com/katie-franklin23/book-keepers',
-    link: 'http://book-keepers.devacademy.nz/',
+      'This straightforward website, a part of The Odin Project Foundations course, enables users to discover diverse recipes. Upon selecting a recipe link, users are provided with detailed instructions and a list of ingredients for preparing the dish.',
+    image: '/odin-recipes.png',
+    github: 'https://github.com/katie-franklin23/odin-recipes',
+    link: 'https://katie-franklin23.github.io/odin-recipes/',
   },
 ]
 
