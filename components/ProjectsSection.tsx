@@ -29,6 +29,14 @@ const projects = [
     github: 'https://github.com/katie-franklin23/book-keepers',
     link: 'http://book-keepers.devacademy.nz/',
   },
+  {
+    name: 'Book-Keepers Website',
+    description:
+      'The project, a collaborative effort during a Dev Academy group project, involves the development of a React-based application. The main functionality allows users to contribute book recommendations based on selected genres.',
+    image: '/book-keepers.png',
+    github: 'https://github.com/katie-franklin23/book-keepers',
+    link: 'http://book-keepers.devacademy.nz/',
+  },
 ]
 
 const ProjectsSection = () => {
