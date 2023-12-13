@@ -29,6 +29,14 @@ const projects = [
     github: 'https://github.com/katie-franklin23/book-keepers',
     link: 'http://book-keepers.devacademy.nz/',
   },
+  {
+    name: 'Odin-Recipes Website',
+    description:
+      'This is a simple webpage created as part of the Foundations course on The Odin Project. The webpage allows you to explore various recipes. When you click on a recipe link, you'll be presented with instructions and a list of ingredients required to prepare the dish.',
+    image: 'odin-recipes.png',
+    github: 'https://github.com/katie-franklin23/odin-recipes',
+    link: 'https://katie-franklin23.github.io/odin-recipes/',
+  },
 ]
 
 const ProjectsSection = () => {
