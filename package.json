@@ -11,7 +11,7 @@
   "dependencies": {
     "@next/font": "13.1.6",
     "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
+    "@types/react": "18.2.25",
     "@types/react-dom": "18.0.10",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.6",
@@ -24,7 +24,7 @@
     "typescript": "4.9.4"
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.6",
+    "@types/react-scroll": "18.2.25",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
