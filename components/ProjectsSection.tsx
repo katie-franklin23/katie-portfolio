@@ -29,12 +29,6 @@ const projects = [
     github: 'https://github.com/katie-franklin23/book-keepers',
     link: 'http://book-keepers.devacademy.nz/',
   },
-  {
-    name: 'Odin-Recipes Website',
-    image: '/odin-recipes.png',
-    github: 'https://github.com/katie-franklin23/odin-recipes',
-    link: 'https://katie-franklin23.github.io/odin-recipes/',
-  },
 ]
 
 const ProjectsSection = () => {
