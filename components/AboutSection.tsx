@@ -46,7 +46,7 @@ const AboutSection = () => {
               I have a wide range of hobbies and passions that keep me busy.
               From going to concerts, traveling, daily walks and brunch catch
               ups with friends. I am always seeking new experiences and love to
-              keep myself engaged and to learn new things.
+              keep myself engaged and learning new things.
             </p>
             <br />
             <p>
