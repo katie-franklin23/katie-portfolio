@@ -32,11 +32,12 @@ export default function Navbar() {
   const currentTheme = theme === 'system' ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+
   return (
     <header
       className={`w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow ${
-        currentTheme === 'dark' ? 'dark' : ''
-      }`}
+        currentTheme === 'dark' ? 'bg-black' : 'bg-white'
+      } dark:bg-stone-900 dark:border-b dark:border-stone-600`}
     >
       <div className="justify-between md:items-center md:flex">
         <div>
@@ -45,7 +46,7 @@ export default function Navbar() {
               <div className="container flex items-center space-x-2">
                 <h2
                   className={`text-2xl font-bold ${
-                    currentTheme === 'dark' ? 'text-white' : 'text-black'
+                    currentTheme === 'dark' ? 'text-white' : 'text-neutral-900'
                   }`}
                 >
                   Katie Franklin
@@ -70,31 +71,25 @@ export default function Navbar() {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              {NAV_ITEMS.map((item, idx) => {
-                return (
-                  <Link
-                    key={idx}
-                    to={item.page}
-                    className={`block lg:inline-block ${
-                      currentTheme === 'dark'
-                        ? 'text-white'
-                        : 'text-neutral-900'
-                    } hover:${
-                      currentTheme === 'dark'
-                        ? 'text-white'
-                        : 'text-neutral-500'
-                    }`}
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    onClick={() => setNavbar(!navbar)}
-                  >
-                    {item.label}
-                  </Link>
-                )
-              })}
+              {NAV_ITEMS.map((item, idx) => (
+                <Link
+                  key={idx}
+                  to={item.page}
+                  className={`block lg:inline-block ${
+                    currentTheme === 'dark'
+                      ? 'text-white hover:text-white'
+                      : 'text-neutral-900 hover:text-neutral-500'
+                  }`}
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  onClick={() => setNavbar(!navbar)}
+                >
+                  {item.label}
+                </Link>
+              ))}
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
