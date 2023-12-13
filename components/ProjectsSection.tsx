@@ -31,8 +31,6 @@ const projects = [
   },
   {
     name: 'Odin-Recipes Website',
-    description:
-      'This is a simple webpage created as part of the Foundations course on The Odin Project. The webpage allows you to explore various recipes.',
     image: '/odin-recipes.png',
     github: 'https://github.com/katie-franklin23/odin-recipes',
     link: 'https://katie-franklin23.github.io/odin-recipes/',
